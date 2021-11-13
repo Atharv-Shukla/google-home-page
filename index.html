@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Home Page</title>
+
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    
+    <div class="main">
+        <div class="welcome main-child">
+            <h1>Welcome <span class="username"></span></h1>
+        </div>
+        <div class="search-main main-child">
+            <div class="container">
+                <div class="container-child container-child-input">
+                    <form class="search-form">
+                        <input type="search" class="search-input" placeholder="Type a search query..." autofocus>
+                    </form>
+                </div>
+                <div class="container-child">
+                    <img src="./assets/logo.jpg" class="logo">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="./js/lib/js-cookie.js"></script>
+<script src="./js/main.js"></script>
+</html>
